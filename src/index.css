@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* margin: 0; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* padding: 20px; */
+  background:antiquewhite ;
+}
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+  color: chartreuse;
+}
+.navbar{
+  background-color: black !important;
+  height:4rem;
+  padding: 0 20px;
+}
+img {
+  height: 80px;
+}
+.card {
+  background: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 3px 10px 8px rgba(255,189,200,0.20);
+}
+.productsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding-top: 20px;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: #764abc;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 11px;
+}
+
+.btn:hover {
+  background: #513282;
+}
+
+.heading {
+  padding: 25px 0;
+}
+.cartCount {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+  color:blue;
+}
+.navLink {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.cartCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+ 
+}
+section{
+  padding: 15px 30px;
+}
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 100px;
+}
